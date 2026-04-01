@@ -37,7 +37,7 @@ public class ForgotPinServlet extends HttpServlet {
             Connection conn = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/atmproject",
                 "root",
-                "Archana@07"
+                "your_password"
             );
 
             String query = "UPDATE login SET pin=? WHERE cardnumber=?";
