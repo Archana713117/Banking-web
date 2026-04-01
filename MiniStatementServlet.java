@@ -26,7 +26,7 @@ public class MiniStatementServlet extends HttpServlet {
             Connection conn = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/atmproject",
                 "root",
-                "Archana@07"
+                "your_password"
             );
 
             String query = "SELECT * FROM bank WHERE card=?";
