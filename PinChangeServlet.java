@@ -26,7 +26,7 @@ public class PinChangeServlet extends HttpServlet {
             Connection conn = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/atmproject",
                 "root",
-                "Archana@07"
+                "your_password"
             );
 
             // 🔥 Update in login table
